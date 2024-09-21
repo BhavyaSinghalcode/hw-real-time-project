@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<form name="myForm" >
+Name: 
+<br>
+<input type="text" name="fname" required>
+<br>
+Age:
+<br>
+<input type="number" name="age" min="10" required>
+<br><br>
+<input  type="submit" value="Submit" onclick="validateForm()" >
+<p id="message"></p>
+</form>
+<script>
+    function validateForm() {                      
+                var x = document.forms["myForm"]["fname"] . value
+                var v= document.forms["myForm"]["age"] . value;
+            }
+            
+    </script>
+</body>
+</html>
